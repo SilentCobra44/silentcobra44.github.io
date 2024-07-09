@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Checkpoint2-7</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Checkpoint2-9</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14583,8 +14583,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <h1 id="S&amp;P-500-Stock-Market-Predictions">S&amp;P 500 Stock Market Predictions<a class="anchor-link" href="#S&amp;P-500-Stock-Market-Predictions">&#182;</a></h1><p>Summer 2024 Data Science Project<br>
 Group Members:<br>
 Junaid Chaudhry, Elliott Eager, Keshav Nayyar, and Francis Fynnwilliams</p>
-<h1 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h1><p>The S&amp;P 500, a benchmark index comprising 500 of the largest publicly traded companies in the United States, serves as a crucial indicator of the overall health of the U.S. stock market and economy. For our Summer 2024 Data Science Project, we aim to leverage historical S&amp;P 500 stock market data to predict future stock prices and analyze the performance of different sectors within the index. By employing advanced machine learning techniques, we seek to answer one primary question: "Can we accurately predict future stock prices based on historical data?"</p>
-<p>Answering these questions holds significant importance for both investors and analysts. Accurate stock price predictions can inform investment strategies, helping individuals and institutions make more informed decisions and potentially increase their returns. Additionally, understanding sector performance can provide insights into economic trends, guiding policy-making and investment allocations. By exploring these questions, our project not only showcases the practical applications of data science in finance but also contributes valuable knowledge to the field of financial analytics.</p>
+<h1 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h1><p>The S&amp;P 500, a benchmark index comprising 500 of the largest publicly traded companies in the United States, serves as a crucial indicator of the overall health of the U.S. stock market and economy. For our Summer 2024 Data Science Project, we aim to leverage historical S&amp;P 500 stock market data to predict future stock prices and analyze the performance of different sectors within the index. By employing advanced machine learning techniques, we seek to answer one primary question: "Can we accurately predict future stock prices based on historical data?" More on the S&amp;P 500: <a href="https://www.investopedia.com/terms/s/sp500.asp">https://www.investopedia.com/terms/s/sp500.asp</a></p>
+<p>Answering this question holds significant importance for both investors and analysts. Accurate stock price predictions can inform investment strategies, helping individuals and institutions make more informed decisions and potentially increase their returns. By exploring this question, our project not only showcases the practical applications of data science in finance but also contributes valuable knowledge to the field of financial analytics.</p>
 
 </div>
 </div>
@@ -14647,7 +14647,7 @@ Junaid Chaudhry, Elliott Eager, Keshav Nayyar, and Francis Fynnwilliams</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Data-Curation">Data Curation<a class="anchor-link" href="#Data-Curation">&#182;</a></h1><p>The dataset used in this project is sourced from Kaggle. It contains historical stock market data for various companies listed in the S&amp;P 500 index over a five-year period. The data includes daily records of stock prices (open, high, low, close), trading volume, and the stock ticker symbol. This dataset provides a comprehensive view of the stock performance of companies within the S&amp;P 500, making it suitable for analyzing trends, predicting future prices, and comparing sector performances. A large data set like this (619,000 rows) gives us the perfect playing field to do some machine learning! But first, we need to transform the data to meet our needs.</p>
+<h1 id="Data-Curation">Data Curation<a class="anchor-link" href="#Data-Curation">&#182;</a></h1><p>The dataset used in this project is sourced from Kaggle. (<a href="https://www.kaggle.com/datasets/camnugent/sandp500">https://www.kaggle.com/datasets/camnugent/sandp500</a>) It contains historical stock market data for various companies listed in the S&amp;P 500 index over a five-year period. The data includes daily records of stock prices (open, high, low, close), trading volume, and the stock ticker symbol. This dataset provides a comprehensive view of the stock performance of companies within the S&amp;P 500, making it suitable for analyzing trends, predicting future prices, and comparing sector performances. A large data set like this (619,000 rows) gives us the perfect playing field to do some machine learning! But first, we need to transform the data to meet our needs.</p>
 
 </div>
 </div>
@@ -15476,7 +15476,7 @@ Merged Data Sample:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Exploratory-Data-Analysis">Exploratory Data Analysis<a class="anchor-link" href="#Exploratory-Data-Analysis">&#182;</a></h1><p>After cleaning the data and getting it ready for analysis we moved on to do some preliminary data analysis. This portion of the data analysis was mostly geared toward figuring out some large-scale statistics about the data set. What were the max and min values of all of the columns, the standard deviations, and the mean? This portion was really just for us to understand what the scale of the data set was and to look for any large variations in the data that might throw our primary analysis off course.</p>
+<h1 id="Exploratory-Data-Analysis">Exploratory Data Analysis<a class="anchor-link" href="#Exploratory-Data-Analysis">&#182;</a></h1><p>After cleaning the data and getting it ready for analysis we moved on to do some preliminary data analysis. This portion of the data analysis was mostly geared toward figuring out some large-scale statistics about the data set. What were the max and min values of all of the columns, the standard deviations, and the mean? This portion was really just for us to understand what the scale of the data set was and to look for any large variations in the data that might throw our primary analysis off course. More on statistical analysis: <a href="https://www.simplilearn.com/what-is-statistical-analysis-article">https://www.simplilearn.com/what-is-statistical-analysis-article</a></p>
 
 </div>
 </div>
@@ -16596,8 +16596,19 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Primary-Analysis-and-Visualization">Primary Analysis and Visualization<a class="anchor-link" href="#Primary-Analysis-and-Visualization">&#182;</a></h1><p>Based on our primary question: "Can we accurately predict future stock prices based on historical data?" A regression analysis would be the most suitable. Regressions are designed for scenarios just like this where predictions are needed to be made. Taking in past trends and data a regression model can help us make informative decisions for the future. The regression machine learning technique can take in many variables from our data that will be needed to make predictions. Many variables in economics such as stock price, volume, and other factors are crucial so the machine can make more accurate decisions.</p>
+<h1 id="Primary-Analysis">Primary Analysis<a class="anchor-link" href="#Primary-Analysis">&#182;</a></h1><p>Based on our primary question: "Can we accurately predict future stock prices based on historical data?" A regression analysis would be the most suitable. Regressions are designed for scenarios just like this where predictions are needed to be made. Taking in past trends and data a regression model can help us make informative decisions for the future. The regression machine learning technique can take in many variables from our data that will be needed to make predictions. Many variables in economics such as stock price, volume, and other factors are crucial so the machine can make more accurate decisions. More on regression: <a href="https://builtin.com/data-science/regression-machine-learning#:~:text=Regression%20in%20machine%20learning%20consists,use%20in%20predicting%20and%20forecasting">https://builtin.com/data-science/regression-machine-learning#:~:text=Regression%20in%20machine%20learning%20consists,use%20in%20predicting%20and%20forecasting</a>.</p>
 
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Visualization">Visualization<a class="anchor-link" href="#Visualization">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -16641,6 +16652,21 @@ class="
 </div>
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>First, we're converting the 'date' column to a proper datetime format, which allows us to easily extract the year and month from each date. This gives us a better sense of when each data point occurs.</p>
+<p>Next, we're calculating some technical indicators that traders often use. We're creating a 5-day and a 30-day moving average of the closing prices, which helps us see short-term and longer-term trends. We're also calculating the 5-day volatility to understand how much the stock price has been fluctuating recently. We then create a ratio between the 5-day and 30-day averages, which can indicate potential changes in trend.</p>
+<p>We're also looking at how the stock performed yesterday by adding columns for the previous day's closing price and return. This helps us understand how today's performance relates to yesterday's.</p>
+<p>Finally, we're cleaning up our data by removing any rows that have missing values. This ensures that all our data is complete and ready for analysis.</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16678,6 +16704,20 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>We're now preparing our data for the neural network. First, we're selecting the features we want to use to make our predictions. These include things like the previous day's closing price, moving averages, volatility, and other indicators we calculated earlier. We're also identifying our target variable, which is the closing price we want to predict.</p>
+<p>Next, we're splitting our data into two parts: a training set and a test set. We'll use the training set to teach our model, and the test set to check how well it's learned. We're using 80% of our data for training and keeping 20% for testing.</p>
+<p>After that, we're scaling our data. We're doing this separately for our features (X) and our target variable (y). We're careful to fit our scaler only on the training data and then apply it to both training and test data. This prevents any information from the test set from leaking into our training process.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="Building-the-Neural-Network">Building the Neural Network<a class="anchor-link" href="#Building-the-Neural-Network">&#182;</a></h1>
 </div>
 </div>
@@ -16706,6 +16746,19 @@ class="
 </div>
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>We're using three layers: our first layer takes in all our data and has 64 neurons to process it. Then we have a middle layer with 32 neurons to further refine the information. Finally, we have an output layer with just one neuron to give us our prediction. We're using ReLU activation in our first two layers. More info on ReLU: <a href="https://machinelearningmastery.com/rectified-linear-activation-function-for-deep-learning-neural-networks/">https://machinelearningmastery.com/rectified-linear-activation-function-for-deep-learning-neural-networks/</a></p>
+<p>We're using an optimization method called Adam, which is really good at helping the model improve quickly. We're also telling it that its goal is to minimize the mean squared error. This means we want our model's predictions to be as close as possible to the actual values in our training data. By setting it up this way, we're preparing our model to make accurate numerical predictions based on the input data we'll give it.</p>
+
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -16905,7 +16958,7 @@ class="
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="Key-Observations:">Key Observations:<a class="anchor-link" href="#Key-Observations:">&#182;</a></h1><p>-Test Loss (MSE):</p>
-<p>The MSE is very low (0.0005603833124041557). This indicates excellent performance from the model.</p>
+<p>The MSE is very low (0.0005603833124041557). This indicates excellent performance from the model. More on MSE: <a href="https://builtin.com/machine-learning/loss-functions">https://builtin.com/machine-learning/loss-functions</a></p>
 <p>-Training Loss:</p>
 <p>This line represents the loss of the neural network on the training dataset over epochs. The training loss generally decreases as the network learns from the data, optimizing its weights to minimize prediction errors.
 The trend shows a general decrease, and shows the model is effectively learning from the training data.</p>
@@ -17016,42 +17069,79 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Insights-and-Conclusions">Insights and Conclusions<a class="anchor-link" href="#Insights-and-Conclusions">&#182;</a></h1><h2 id="Project-Overview:">Project Overview:<a class="anchor-link" href="#Project-Overview:">&#182;</a></h2><p>The Summer 2024 Data Science Project aimed to harness historical S&amp;P 500 data to predict future stock prices and analyze sector performance. This initiative not only targeted enhancements in investment strategies through predictive analytics but also sought to deepen the understanding of sector dynamics within the index.</p>
-<h2 id="Informed-Understanding:">Informed Understanding:<a class="anchor-link" href="#Informed-Understanding:">&#182;</a></h2><p>For Uninformed Readers: The project systematically explains the relevance of the S&amp;P 500, details the machine learning approaches used, and explores the findings in a way that teaches readers the fundamentals of stock market analytics. Uninformed readers obtain a basic understanding of how data science can forecast stock market movements and the elements that affect sector success.</p>
+<h1 id="Insights-and-Conclusions">Insights and Conclusions<a class="anchor-link" href="#Insights-and-Conclusions">&#182;</a></h1><h2 id="Project-Overview:">Project Overview:<a class="anchor-link" href="#Project-Overview:">&#182;</a></h2><p>This Summer 2024 Data Science Project aimed to understand historical S&amp;P 500 data to predict future stock prices and analyze sector performance. This initiative not only targeted enhancements in investment strategies through predictive analytics but also sought to deepen the understanding of sector dynamics within the index.</p>
+<h2 id="Understandings:">Understandings:<a class="anchor-link" href="#Understandings:">&#182;</a></h2><p>For Uninformed Readers: The project systematically explains the relevance of the S&amp;P 500, details the machine learning approaches used, and explores the findings in a way that teaches readers the fundamentals of stock market analytics. Uninformed readers obtain a basic understanding of how data science can forecast stock market movements and the elements that affect sector success.</p>
 <p>For Informed Readers: Even those familiar with financial analytics would find the detailed examination of sector-specific performances enlightening. The application of various statistical tests (Chi-Squared, Z-Tests, ANOVA) to real-world data offers insights into the practical challenges and complexities of predicting stock prices and sector behaviors.</p>
 <h2 id="Key-Findings:">Key Findings:<a class="anchor-link" href="#Key-Findings:">&#182;</a></h2><h3 id="Predictive-Modeling:">Predictive Modeling:<a class="anchor-link" href="#Predictive-Modeling:">&#182;</a></h3><p>Regression analysis indicated that while stock prices can be predicted using historical data, the accuracy is subject to market volatility and economic indicators. This finding is crucial for investors considering reliance on predictive models.</p>
 <h2 id="Sector-Analysis:">Sector Analysis:<a class="anchor-link" href="#Sector-Analysis:">&#182;</a></h2><p>The project revealed nuanced insights into sector performance:
-Consumer Discretionary and Consumer Staples sectors showed significant outperformance.
-Finance, Industrial, and Technology sectors demonstrated stability with fewer fluctuations.
-The ANOVA test revealed no significant differences in daily returns across sectors, challenging the notion that some sectors consistently outperform others.</p>
+Consumer Discretionary and Consumer Staples sectors showed significant outperformance.</p>
+<p>Finance, Industrial, and Technology sectors demonstrated stability with fewer fluctuations.</p>
+<p>The ANOVA test revealed no significant differences in daily returns across sectors, challenging the notion that some sectors consistently outperform others.</p>
 <h2 id="Statistical-Analysis:">Statistical Analysis:<a class="anchor-link" href="#Statistical-Analysis:">&#182;</a></h2><h3 id="Chi-Squared-Test:">Chi-Squared Test:<a class="anchor-link" href="#Chi-Squared-Test:">&#182;</a></h3><p>No significant association between sectors and stock volatility was found, suggesting that sector categorization does not inherently dictate volatility levels.</p>
 <h3 id="Z-Test:">Z-Test:<a class="anchor-link" href="#Z-Test:">&#182;</a></h3><p>Highlighted sectors that statistically differed from the market average, providing a basis for targeted investment strategies.</p>
-<h3 id="ANOVA:">ANOVA:<a class="anchor-link" href="#ANOVA:">&#182;</a></h3><p>The lack of significant differences among sectorial daily returns suggests that external factors might play a larger role in influencing stock prices than previously considered.
-Implications for Stakeholders:</p>
-<h3 id="Investors:">Investors:<a class="anchor-link" href="#Investors:">&#182;</a></h3><p>Insights from this project can guide portfolio diversification strategies, especially in understanding sector-specific risks and returns.
-Policy Makers and Economists: Understanding sector dynamics can aid in crafting economic policies that enhance the stability and growth of critical market segments.</p>
-<h3 id="Data-Scientists:">Data Scientists:<a class="anchor-link" href="#Data-Scientists:">&#182;</a></h3><p>The project underscores the importance of robust data preprocessing and the potential of machine learning in financial forecasting.</p>
-<h2 id="Conclusions:">Conclusions:<a class="anchor-link" href="#Conclusions:">&#182;</a></h2><p>The analysis effectively shows the use of data science in finance, offering significant insights on stock price predictability and sector performance within the S&amp;P 500. While it lays a solid framework for forecasting and sector analysis, it also emphasizes the constraints imposed by external economic forces and market fluctuations. Future research might focus on strengthening predictive models and investigating deeper inter-sectoral dynamics to improve prediction granularity and accuracy.</p>
+<h3 id="ANOVA:">ANOVA:<a class="anchor-link" href="#ANOVA:">&#182;</a></h3><p>The lack of significant differences among sectorial daily returns suggests that external factors might play a larger role in influencing stock prices than previously considered.</p>
+<h2 id="Implications-for-Stakeholders:">Implications for Stakeholders:<a class="anchor-link" href="#Implications-for-Stakeholders:">&#182;</a></h2><h3 id="Investors:">Investors:<a class="anchor-link" href="#Investors:">&#182;</a></h3><p>Insights from this project can guide portfolio diversification strategies, especially in understanding sector-specific risks and returns. More info on this: <a href="https://www.spglobal.com/spdji/en/documents/research/research-the-impact-of-the-global-economy-on-the-sp-500.pdf">https://www.spglobal.com/spdji/en/documents/research/research-the-impact-of-the-global-economy-on-the-sp-500.pdf</a></p>
+<h3 id="Policy-Makers-and-Economists:">Policy Makers and Economists:<a class="anchor-link" href="#Policy-Makers-and-Economists:">&#182;</a></h3><p>Understanding sector dynamics can aid in making economic policies that enhance the stability and growth of important market segments.</p>
+<h3 id="Data-Scientists:">Data Scientists:<a class="anchor-link" href="#Data-Scientists:">&#182;</a></h3><p>The project underscores the importance of robust data preprocessing and the potential of machine learning in financial predictions.</p>
+<h2 id="Conclusions:">Conclusions:<a class="anchor-link" href="#Conclusions:">&#182;</a></h2><p>The analysis effectively shows the use of data science in finance, offering significant insights on stock price predictability and sector performance within the S&amp;P 500. While it lays a solid framework for forecasting and sector analysis, it also emphasizes the constraints brought on by external economic forces and market fluctuations. Future research might focus on strengthening predictive models and investigating deeper inter-sectoral aspects to improve prediction accuracy.</p>
 <h1 id="Overall-Experience:">Overall Experience:<a class="anchor-link" href="#Overall-Experience:">&#182;</a></h1><p>Both uninformed and informed readers are likely to find the project's approach comprehensive and its conclusions insightful. It effectively bridges the gap between theoretical data science applications and practical financial market analytics, enriching the reader's understanding of both areas.</p>
 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[83]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">shell</span>
-<span class="n">jupyter</span> <span class="n">nbconvert</span> <span class="o">--</span><span class="n">to</span> <span class="n">html</span> <span class="o">//</span><span class="n">Your</span> <span class="n">notebook</span> <span class="n">path</span> <span class="n">file</span><span class="o">.</span><span class="n">ipynb</span>
+<span class="n">jupyter</span> <span class="n">nbconvert</span> <span class="o">--</span><span class="n">to</span> <span class="n">html</span> <span class="o">///</span><span class="n">content</span><span class="o">/</span><span class="n">Checkpoint2</span><span class="o">-</span><span class="mf">7.</span><span class="n">ipynb</span>
 </pre></div>
 
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>[NbConvertApp] Converting notebook ///content/Checkpoint2-7.ipynb to html
+[NbConvertApp] Writing 1045978 bytes to /content/Checkpoint2-7.html
+</pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[83]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre></pre>
+</div>
+
+</div>
+
+</div>
+
 </div>
 
 </div>
