@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://silentcobra44.github.io/">
-    <img src="images/preview.png" alt="S&P 500 Project Preview" width="700">
+    <img src="images/preview.png" alt="S&P 500 Project Preview" width="300">
   </a>
 </p>
 
