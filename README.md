@@ -1,11 +1,15 @@
 <p align="center">
   <a href="https://silentcobra44.github.io/">
-    <img src="images/preview.png" alt="S&P 500 Project Preview" width="300">
+    <img src="images/preview.png" alt="S&P 500 Project Preview" width="450">
   </a>
 </p>
 
 
-# 📈 S&P 500 Stock Market Predictions and Analyses
+<h1>
+  <a href="https://silentcobra44.github.io/" style="text-decoration: none; color: inherit;">
+    📈 S&P 500 Stock Market Predictions and Analyses
+  </a>
+</h1>
 
 **Authors:** Francis Fynnwilliams & Keshav Nayyar
 
