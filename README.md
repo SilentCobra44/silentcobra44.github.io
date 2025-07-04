@@ -1,4 +1,9 @@
-[![S&P 500 Project Preview](images/preview.png)](https://silentcobra44.github.io)
+<p align="center">
+  <a href="https://silentcobra44.github.io/">
+    <img src="images/preview.png" alt="S&P 500 Project Preview" width="700">
+  </a>
+</p>
+
 
 # 📈 S&P 500 Stock Market Predictions and Analyses
 
