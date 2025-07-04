@@ -1,4 +1,4 @@
-[![S&P 500 Project Preview](preview.png)](https://silentcobra44.github.io)
+[![S&P 500 Project Preview](images/preview.png)](https://silentcobra44.github.io)
 
 # 📈 S&P 500 Stock Market Predictions and Analyses
 
